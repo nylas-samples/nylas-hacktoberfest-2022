@@ -21,3 +21,7 @@ _If you're interested in building for Nylas, [come join us](https://jobs.lever.c
 
 **Node.js**
 - [node-webhooks-challenge-serverless-function](https://github.com/nylas-samples/node-webhooks-challenge-serverless-function): Create Nylas Webhooks with NodeJS
+
+
+##Rust##
+- [rust-send-email](https://somewhere.com/some-external-link): How to send an email using Rust
