@@ -1,0 +1,16 @@
+import os
+from nylas import APIClient
+
+### Add the client credentials to the environment variables
+nylas = APIClient(
+   os.environ.get("CLIENT_ID"),
+   os.environ.get("CLIENT_SECRET"),
+   os.environ.get("ACCESS_TOKEN"),
+)
+
+### Create a new Email Label
+if nylas.account.organization_unit == 'label': 
+
+    label = nylas.labels.create()
+    label.display_name = "My Label" # Name of the Label
+    label.save()
