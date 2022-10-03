@@ -4,6 +4,8 @@
 * [ ] PR follows the [Contributing guidelines](https://github.com/nylas-samples/nylas-hacktoberfest-2022/blob/main/CONTRIBUTION.md)?
 * [ ] PR Adheres to our [Code of Conduct](https://github.com/nylas-samples/nylas-hacktoberfest-2022/blob/main/CODE_OF_CONDUCT.md)?
 * [ ] Have you checked to ensure there aren't other open Pull Requests for the same update/change?
+* [ ] Ensure you are assigned the issue before creating a PR.
+* [ ] Only one issue per PR is allowed. This simplifies the code review.
 
 ## Code complete
 * [ ] A `README.md` available describing how to setup and test the code?
