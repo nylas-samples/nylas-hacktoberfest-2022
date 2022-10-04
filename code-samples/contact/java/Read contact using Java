@@ -1,0 +1,30 @@
+import java.io.IOException;
+import java.util.List;
+
+import com.nylas.NylasAccount;
+import com.nylas.NylasClient;
+import com.nylas.RequestFailedException;
+import com.nylas.Contact;
+import com.nylas.ContactQuery;
+
+public class ReadContacts {
+  public static void main(String[] args) throws IOException, RequestFailedException {
+
+    // Create client object and connect it to Nylas using
+    // an account's access token
+    NylasClient client = new NylasClient();
+    // Provide the access token for a specific account
+    NylasAccount account = client.account("ACCESS_TOKEN");
+
+    List<Contact> contacts = account.contacts().list(new ContactQuery().limit(10));
+    contacts.stream().forEach((Contact contact) -> {
+      System.out.printf(
+        "Name: %s %s | Email %s | ID: %s\n", 
+        contact.getGivenName(),
+        contact.getSurname(),
+        contact.getEmails().get(0).getEmail(),
+        contact.getId());
+    });
+  } 
+}  
+ 
