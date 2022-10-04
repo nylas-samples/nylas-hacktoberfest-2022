@@ -82,6 +82,12 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 - [Send Emails with Rust and C#](https://github.com/nylas-samples/send_emails_rust_csharp): Send an email with Nylas REST APIs using Rust or C#!
 - [Send and Read Emails with PHP](https://github.com/nylas-samples/php_send_and_read_emails): Read or Send an email with Nylas REST APIs using PHP!
 
+## Account API samples
+
+**Node.js SDK**
+
+- [read-account](/code-samples/account/node/read-account/): Read account details using Nylas Node SDK!
+
 ## Contact API samples
 
 - [contact-list-json-data](https://github.com/nylas-samples/contact-list-json-data): Use JSON data with the Contact List Component!
