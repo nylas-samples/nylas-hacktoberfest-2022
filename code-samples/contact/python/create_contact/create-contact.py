@@ -30,11 +30,13 @@ contact.phone_numbers['personal'] = ['(555) 867-5309']
 contact.web_pages['homepage'] = ['https://nylas.com']
 contact.save()
 pp = pprint.PrettyPrinter(indent=4)
-#pp.pprint(contact)
+# pp.pprint(contact)
 
-new_contact_id = pp.pprint(contact.id)
+#fetch the ID of the newly created contact. 
+new_contact_id = contact.id
 
 # Read newly created contact
 contact = nylas.contacts.get(new_contact_id)
 pp_contact = pprint.PrettyPrinter(indent=4)
+print("********** Below are the details of the new Contact Created **********")
 pp_contact.pprint(contact)
