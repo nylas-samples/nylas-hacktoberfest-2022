@@ -94,7 +94,8 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 
 ## Contact API samples
 
-**Python SDK** -[read-contacts](code-samples/contact/python/read_contacts/read_contacts.py)
+**Python SDK** 
+-[python-read-contacts](https://github.com/nylas-hacktoberfest-2022/code-samples/contact/python/read_contacts/)
 
 **Other languages**
 
