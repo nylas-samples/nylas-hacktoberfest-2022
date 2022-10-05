@@ -19,4 +19,4 @@
 * [ ] Steps try out the code are provided
 * [ ] Code sample runs on codespaces environment
 * [ ] Code works as expected
-* [ ] PR labels added
+* [ ] PR label `hacktoberfest-accepted` added
