@@ -6,10 +6,6 @@ os.environ['CLIENT_ID'] = "The ID for your application"
 os.environ['CLIENT_SECRET'] = "The secret for your application"
 os.environ['ACCESS_TOKEN'] = "The access token you generated with the Quick Start application."
 
-os.environ['CLIENT_ID'] = 'ew36svsz6tw63myzqjhi7yn5e'
-os.environ['CLIENT_SECRET'] = '3hf3sx7d7s5hglfjj2mqm57g1'
-os.environ['ACCESS_TOKEN'] = 'RKl4xwjBNusfZr0DCCkVIn9Bf8kjBU'
-
 
 nylas = APIClient(
    os.environ.get("CLIENT_ID"),
@@ -33,7 +29,7 @@ pp = pprint.PrettyPrinter(indent=4)
 # pp.pprint(contact)
 
 #fetch the ID of the newly created contact. 
-new_contact_id = contact.id
+new_contact_id = contact.id 
 
 # Read newly created contact
 contact = nylas.contacts.get(new_contact_id)
