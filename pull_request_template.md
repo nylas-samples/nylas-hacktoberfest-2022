@@ -13,7 +13,7 @@
 * [ ] Link added to the repository readme (view `# Code Snippets created by the Nylas Community` with examples) describing what the code sample does for others to try out
 * [ ] The code can be run using Github Codespaces, so the maintainer can try out the code sample remotely to ensure everything is working before we accept the PR.
 
-## For PR Reviewer use
+## For Maintainer Use Only (does not apply to PR Author)
 * [ ] Purpose of code sample is clear
 * [ ] The code sample is readable
 * [ ] Steps try out the code are provided
