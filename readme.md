@@ -13,45 +13,36 @@ Create and find code snippets for Nylas authentication, scheduling, email, calen
 _If you're interested in building for Nylas, [come join us](https://ats.comparably.com/api/v1/gh/nylas)._
 
 # How to Participate
-
 ## Hacktoberfest Guidelines
-
 We will follow guidelines provided by hacktoberfest. Please review them [here](https://hacktoberfest.com/participation/#pr-mr-details).
 
 ## Working on an issue
+View open [issues](https://github.com/nylas-samples/nylas-hacktoberfest-2022/issues) with the `hacktoberfest` label. 
 
-View open [issues](https://github.com/nylas-samples/nylas-hacktoberfest-2022/issues) with the `hacktoberfest` label.
+If you plan to work on an issue, start a quick dialogue with the maintainer and wait for the maintainer to assign the issue to you. We want everyone to get a chance to contribute, please do not take on multiple issues at once (chat with us before doing so). We will review assigned issues frequently to give everyone a chance to contribute. 
 
-If you plan to work on an issue, start a quick dialogue with the maintainer and wait for the maintainer to assign the issue to you. We want everyone to get a chance to contribute, please do not take on multiple issues at once (chat with us before doing so). We will review assigned issues frequently to give everyone a chance to contribute.
-
-Once a PR is open and being worked on for an issue, ensure to link the issue to the PR. Linking an issue to development branch can be done on the Issue page (search for `Development`).
+Once a PR is open and being worked on for an issue, ensure to link the issue to the PR. Linking an issue to development branch can be done on the Issue page (search for `Development`). 
 
 Only issues addressed via PRs will count towards Hacktoberfest participation. Only PRs against issues will be tagged with `HACKTOBERFEST` and `HACKTOBERFEST-ACCEPTED`.
 
 ## Like to create an issue?
-
 If you have other code samples in mind that you like to contribute, open an [issues](https://github.com/nylas-samples/nylas-hacktoberfest-2022/issues) and request feedback from the maintainer before proceeding to ensure the PR will be accepted and count towards Hacktoberfest participation. We want to ensure the issue is correctly labelled for Hacktoberfest.
 
 ## Accepting PRs
-
 Check out our [PR Template](https://github.com/nylas-samples/nylas-hacktoberfest-2022/blob/main/pull_request_template.md) for you to check off before submitting a PR request. You can always reach out to the maintainer via the Issue/PR if something is not clear :)
 
 ## PRs Approvals
-
 It is up to Nylas to accept or not accept any pull requests, there is no guarantee of your PR being merged or used in the future.
 
 We will mark any invalid PRs that contain spam, does not follow contribution guidelines, or is not in accordance with our code of conduct.
 
 ## Have more questions?
-
 Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/blob/main/faqs.md). If you don't find what you are looking for, feel free to create an issue with the label `Question` and we'll follow up.
 
 # Code Snippets created by the Nylas Community
 
 ## [API Category]
-
 **[Language]**
-
 - [api-language-code-sample-name](full-link-to-folder): Description of code sample
 
 ## Auth samples
@@ -61,7 +52,6 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 ## Email API samples
 
 **Node.js SDK**
-
 - [node-starter-repo](https://github.com/nylas-samples/node-starter-repo): Start building with the Nylas Node.js SDK!
 - [node-email-send](https://github.com/nylas-samples/node-email-send): Send an email with Nylas the Node.js SDK!
 - [node-email-read](https://github.com/nylas-samples/node-email-read): Read your email with Nylas the Node.js SDK!
@@ -92,28 +82,30 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 - [Send Emails with Rust and C#](https://github.com/nylas-samples/send_emails_rust_csharp): Send an email with Nylas REST APIs using Rust or C#!
 - [Send and Read Emails with PHP](https://github.com/nylas-samples/php_send_and_read_emails): Read or Send an email with Nylas REST APIs using PHP!
 
+## Account API samples
+
+**Node.js SDK**
+
+- [node-read-account](/code-samples/account/node/read-account/): Read account details using Nylas Node SDK!
+
 ## Contact API samples
 
 **Python SDK** 
--[python-read-contacts](https://github.com/nylas-hacktoberfest-2022/code-samples/contact/python/read_contacts/)
+- [python-read-contacts](https://github.com/nylas-hacktoberfest-2022/code-samples/contact/python/read_contacts/)
 
 **Other languages**
-
 - [contact-list-json-data](https://github.com/nylas-samples/contact-list-json-data): Use JSON data with the Contact List Component!
 
 ## Calendar and Events API samples
 
 **Node.js SDK**
-
 - [node-manage-calendar-events](https://github.com/nylas-samples/node-manage-calendar-events): Manage calendar events with the Nylas Node.js SDK!
 - [node-send-calendar-event-notifications](https://github.com/nylas-samples/node-send-calendar-event-notifications) Manage calendar events notifications with the Nylas Node.js SDK!
 
 **Python SDK**
-
 - [python-holiday-generator](https://github.com/nylas-samples/python-holidays-generator): Generate a Markdown file of your Holidays Calendar using the Nylas Python SDK
 
 **Other languages**
-
 - [Read Calendars with C#](https://github.com/nylas-samples/read_calendars_c_sharp): Read calendars using C#
 - [Read Events with C#](https://github.com/nylas-samples/read_events_c_sharp): Read daily events using C#
 - [Create Events with C#](https://github.com/nylas-samples/create_events_c_sharp): Create an event using C#
@@ -131,9 +123,7 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 ## Webhook samples
 
 **Node.js**
-
 - [node-webhooks-challenge-serverless-function](https://github.com/nylas-samples/node-webhooks-challenge-serverless-function): Create Nylas Webhooks with NodeJS
 
 ## Infrastructure setup
-
 - [infra-setup](https://github.com/nylas-samples/infra-setup): A collection of scripts to automate Nylas client's required infrastructure
