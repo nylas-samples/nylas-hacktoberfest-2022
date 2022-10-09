@@ -4,7 +4,10 @@
 
 - Install Nylas Python SDK
 
-  > `pip install nylas`
+```
+  pip install nylas
+  pip install python-dotenv
+```
 
 - Setup ENV Variables
 
