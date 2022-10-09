@@ -12,10 +12,10 @@ public class UpdateContact {
 	    NylasClient client = new NylasClient();
 	    
 	    // Provide the access token for a specific account
-	    NylasAccount account = client.account("sDaBh6NmnBKxBhZOF10yEs8b6QL05D");
+	    NylasAccount account = client.account("ACCESS_TOKEN");
 	    
 	    //Retrieve the contact object to update with contact id
-	    Contact contact = account.contacts().get("82u83w6fu9c8kvzm70c34ko04");
+	    Contact contact = account.contacts().get("CONTACT_ID");
 
 	    //Update the contact object attributes
 	    contact.setCompanyName("Microsoft");
