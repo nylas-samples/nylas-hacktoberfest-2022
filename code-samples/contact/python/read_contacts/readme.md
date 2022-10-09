@@ -1,6 +1,6 @@
 # Read Contacts
 
-## Steps to test
+## Setup
 
 - Install Nylas Python SDK
 
@@ -11,7 +11,13 @@
 
 - Setup ENV Variables
 
-- Run the script
+## Usage
+
+- Run the script using
+
+```
+python3 read_contacts.py
+```
 
 ## Expected Output
 
