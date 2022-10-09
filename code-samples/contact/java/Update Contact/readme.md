@@ -20,19 +20,20 @@ This sample will show you to easily update a contact with the Nylas Java SDK.
 
 ## Usage
 
-Run the script using the `node` command:
+Run the UpdateContact `.java` on your IDE or to run on cmd execute two commands along with file in the current working directory:
 
 ```bash
-$ node index.js
+C:\com\nylas> javac UpdateContact.java
+C:\com\nylas> java UpdateContact
 ```
 
 When your messages are successfully read, you'll get the following output in your terminal for a few emails:
 
 ```text
-[4/7/YYYY] Here's an email subject
-[4/6/YYYY] Another subject
+12:31:43.403 [main] DEBUG com.nylas.http.Body - <= No response body
+Contact [ ... ]
 ```
 
 ## Learn more
 
-Visit our [Nylas Node.js SDK documentation](https://developer.nylas.com/docs/developer-tools/sdk/node-sdk/) to learn more.
+Visit our [Nylas Node.js SDK documentation](https://developer.nylas.com/docs/developer-tools/sdk/java-sdk/) to learn more.
