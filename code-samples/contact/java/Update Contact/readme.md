@@ -27,7 +27,7 @@ C:\com\nylas> javac UpdateContact.java
 C:\com\nylas> java UpdateContact
 ```
 
-When your messages are successfully read, you'll get the following output in your terminal for a few emails:
+When the contact is successfully updated, you'll get the updated contact object printed in the terminal :
 
 ```text
 12:31:43.403 [main] DEBUG com.nylas.http.Body - <= No response body
