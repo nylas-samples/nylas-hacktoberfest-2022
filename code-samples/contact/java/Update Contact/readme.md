@@ -14,7 +14,7 @@ This sample will show you to easily update a contact with the Nylas Java SDK.
 <dependency>
    <groupId>com.nylas.sdk</groupId>
    <artifactId>nylas-java-sdk</artifactId>
-    <version>1.18.0</version>
+   <version>1.18.0</version>
 </dependency>
 ```
 
