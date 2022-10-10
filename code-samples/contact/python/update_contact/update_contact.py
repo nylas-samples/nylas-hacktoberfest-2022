@@ -1,17 +1,23 @@
 import os, pprint
 from nylas import APIClient
 from datetime import datetime
-
-# Set environment variables
-os.environ['CLIENT_ID'] = "The ID for your application"
-os.environ['CLIENT_SECRET'] = "The secret for your application"
-os.environ['ACCESS_TOKEN'] = "The access token you generated with the Quick Start application."
+# Load your env variables
+from dotenv import load_dotenv
 
 
+load_dotenv()
+
+# # Set environment variables
+# os.environ['CLIENT_ID'] = "The ID for your application"
+# os.environ['CLIENT_SECRET'] = "The secret for your application"
+# os.environ['ACCESS_TOKEN'] = "The access token you generated with the Quick Start application."
+
+
+# Add the client credentials to the environment variables
 nylas = APIClient(
-   os.environ.get("CLIENT_ID"),
-   os.environ.get("CLIENT_SECRET"),
-   os.environ.get("ACCESS_TOKEN"),
+    os.environ.get("CLIENT_ID"),
+    os.environ.get("CLIENT_SECRET"),
+    os.environ.get("ACCESS_TOKEN"),
 )
 
 
