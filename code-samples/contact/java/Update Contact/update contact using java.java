@@ -1,7 +1,10 @@
-package com.nylas;
-
 import java.util.List;
 import java.io.IOException;
+
+import com.nylas.NylasClient;
+import com.nylas.RequestFailedException;
+import com.nylas.Contact;
+import com.nylas.NylasAccount;
 
 public class UpdateContact {
 
