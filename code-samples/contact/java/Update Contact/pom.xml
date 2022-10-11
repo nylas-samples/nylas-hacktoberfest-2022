@@ -7,6 +7,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>NylasUpdateContact</name>
   <description>Project to update a contact using java SDK</description>
+  <properties> 
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+     <maven.compiler.source>17</maven.compiler.source> 
+     <maven.compiler.target>17</maven.compiler.target> 
+  </properties>
   <url>http://maven.apache.org</url>
   <dependencies>
     <!-- dependency of Nylas java SDK -->
