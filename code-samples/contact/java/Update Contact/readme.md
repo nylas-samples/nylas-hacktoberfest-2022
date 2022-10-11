@@ -2,6 +2,22 @@
 
 This sample will show you to easily update a contact with the Nylas Java SDK.
 
+## Project Folder Structure
+
+```text
+code-samples
+├── ...
+├── contact                   
+│   ├── java          
+│       ├── Update Contact
+|                         ├── src/main/java
+|                                          ├── update contact using java.java
+|                                          ├── readme.md
+|                         ├── pom.xml                                                        
+│   └── ...              
+└── ...
+```
+
 ## Setup
 
 ### System dependencies
