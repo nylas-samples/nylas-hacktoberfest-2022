@@ -10,10 +10,10 @@ code-samples
 ├── contact                   
 │   ├── java          
 │       ├── Update Contact
-|                         ├── src/main/java
-|                                          ├── update contact using java.java
-|                                          ├── readme.md
-|                         ├── pom.xml                                                        
+│                        ├── src/main/java
+│                                        ├── update contact using java.java
+│                                        ├── readme.md
+│                        ├── pom.xml                                                        
 │   └── ...              
 └── ...
 ```
