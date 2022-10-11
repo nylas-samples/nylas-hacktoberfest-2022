@@ -87,6 +87,7 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 **Node.js SDK**
 
 - [node-read-account](/code-samples/account/node/read-account/): Read account details using Nylas Node SDK!
+- [python-read-account](/code-samples/account/python/read-account/): Read account details using Nylas Python SDK!
 
 ## Contact API samples
 
