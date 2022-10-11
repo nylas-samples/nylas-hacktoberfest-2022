@@ -91,6 +91,10 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 
 ## Contact API samples
 
+**Python SDK** 
+- [python-read-contacts](https://github.com/nylas-hacktoberfest-2022/code-samples/contact/python/read_contacts/)
+
+**Other languages**
 - [contact-list-json-data](https://github.com/nylas-samples/contact-list-json-data): Use JSON data with the Contact List Component!
 - [node-read-contacts](/code-samples/contact/node/read-contacts/): Read contacts using Nylas Node SDK and TypeScript
 
