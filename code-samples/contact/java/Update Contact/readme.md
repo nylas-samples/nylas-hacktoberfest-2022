@@ -20,7 +20,7 @@ This sample will show you to easily update a contact with the Nylas Java SDK.
 
 ## Usage
 
-Run the UpdateContact `.java` on your IDE or to run on cmd execute maven commands along with pom `.xml` in the current working directory:
+Run the UpdateContact `.java` on your IDE or to run on terminal, execute below maven command along with pom `.xml` and UpdateContact in the current working directory:
 
 ```bash
 mvn exec:java  -Dexec.mainClass=UpdateContact
@@ -40,4 +40,4 @@ Contact [ ... ]
 
 ## Learn more
 
-Visit our [Nylas Node.js SDK documentation](https://developer.nylas.com/docs/developer-tools/sdk/java-sdk/) to learn more.
+Visit our [Nylas Java SDK documentation](https://developer.nylas.com/docs/developer-tools/sdk/java-sdk/) to learn more.
