@@ -87,16 +87,21 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 **Node.js SDK**
 
 - [node-read-account](/code-samples/account/node/read-account/): Read account details using Nylas Node SDK!
+- [python-read-account](/code-samples/account/python/read-account/): Read account details using Nylas Python SDK!
 
 ## Contact API samples
 
+**Python SDK** 
+- [python-read-contacts](https://github.com/nylas-hacktoberfest-2022/code-samples/contact/python/read_contacts/)
+
+**Other languages**
 - [contact-list-json-data](https://github.com/nylas-samples/contact-list-json-data): Use JSON data with the Contact List Component!
 - [node-read-contacts](/code-samples/contact/node/read-contacts/): Read contacts using Nylas Node SDK and TypeScript
 
 
-
 **Python SDK**
 - [python-update-contact](code-samples/contact/python/update_contact/): Update an existing account with Python Nylas SDK!
+- [python-create-contact](code-samples/contact/python/create_contact/): Create a contact using the Nylas Python SDK!
 
 ## Calendar and Events API samples
 
