@@ -40,7 +40,7 @@ public class CreateContact {
 	    //Create the contact object
 	    contact = account.contacts().create(contact);
 
-	    //Print the updated object
+	    //Print the newly created object
 	    System.out.println(contact.toString());
 
 	  } 
