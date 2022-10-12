@@ -3,6 +3,7 @@ from nylas import APIClient
 from datetime import datetime
 from dotenv import load_dotenv
 
+
 # load the env variables
 load_dotenv()
 # Fetch the client credentials from the environment variables
@@ -11,8 +12,6 @@ nylas = APIClient(
     os.environ.get("CLIENT_SECRET"),
     os.environ.get("ACCESS_TOKEN"),
 )
-
-
 
 # Create Contact Using Nylas SDK 
 
@@ -35,9 +34,7 @@ contact = nylas.contacts.get(new_contact_id)
 pp_contact = pprint.PrettyPrinter(indent=4)
 pp_contact.pprint(contact)
 
-
 # ----- Update / modify an existing contact 
-
 contact.given_name = 'Toriko'
 contact.middle_name = 'Tokyo'
 contact.surname = 'Ghoul'
