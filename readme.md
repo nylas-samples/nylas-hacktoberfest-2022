@@ -93,6 +93,7 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 
 - [contact-list-json-data](https://github.com/nylas-samples/contact-list-json-data): Use JSON data with the Contact List Component!
 - [node-read-contacts](/code-samples/contact/node/read-contacts/): Read contacts using Nylas Node SDK and TypeScript
+- [create-contacts-from-emails](/code-samples/contact/node/create-contacts-from-emails/): Create contacts from latest emails using Nylas Node SDK and TypeScript
 
 ## Calendar and Events API samples
 
