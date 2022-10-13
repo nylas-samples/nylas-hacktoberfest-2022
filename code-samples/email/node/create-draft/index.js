@@ -1,6 +1,8 @@
 const Nylas = require('nylas')
 const { default: Draft } = require('nylas/lib/models/draft')
 
+require('dotenv').config()
+
 Nylas.config({
    clientId: process.env.CLIENT_ID,
    clientSecret: process.env.CLIENT_SECRET
