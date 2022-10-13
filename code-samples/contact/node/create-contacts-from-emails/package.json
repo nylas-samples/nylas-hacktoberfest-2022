@@ -1,0 +1,22 @@
+{
+  "name": "create-calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "ts-node-dev src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "nylas": "^6.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "ts-node-dev": "^2.0.0"
+  }
+}
