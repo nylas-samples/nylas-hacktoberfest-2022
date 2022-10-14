@@ -42,7 +42,7 @@ Please add the customer id from a contact that was created using Nylas lib in th
 ```
 CONTACT_ID = <contact id>
 ```
-  
+Read the contact details and fetch a contact ID from here `/code-samples/contact/python/read_contacts/read_contacts.py`  
 
 ## Output
 
