@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 
 # load the env variables
 load_dotenv()
+
 # Fetch the client credentials from the environment variables
 nylas = APIClient(
     os.environ.get("CLIENT_ID"),
@@ -13,27 +14,10 @@ nylas = APIClient(
     os.environ.get("ACCESS_TOKEN"),
 )
 
-# Create Contact Using Nylas SDK 
+# read the contact ID to update from the .env file
+new_contact_id = os.environ.get("CONTACT_ID")
 
-contact = nylas.contacts.create()
-contact.given_name = "Anonymous"
-contact.middle_name = "Frog"
-contact.surname = "Tanuki"
-contact.emails['personal'] = ['ytafkocjc@laste.ml']
-contact.notes = "Test Contact - Kuro"
-contact.phone_numbers['personal'] = ['(555) 867-5309']
-contact.web_pages['homepage'] = ['https://nylas.com']
-contact.save()
-pp = pprint.PrettyPrinter(indent=4)
-#pp.pprint(contact)
-
-new_contact_id = pp.pprint(contact.id)
-
-# Read newly created contact
 contact = nylas.contacts.get(new_contact_id)
-pp_contact = pprint.PrettyPrinter(indent=4)
-pp_contact.pprint(contact)
-
 # ----- Update / modify an existing contact 
 contact.given_name = 'Toriko'
 contact.middle_name = 'Tokyo'
@@ -63,7 +47,7 @@ contact.im_addresses['gtalk'] = 'Google'
 # Save the contact to Nylas with the updated configurtations
 contact.save()
 
-contact = nylas.contacts.get(new_contact_id)
+# Print the updated customer details for reference. 
 pp_contact = pprint.PrettyPrinter(indent=4)
 print("********** Below are the details of the new Contact details that are updated **********")
 pp_contact.pprint(contact)
