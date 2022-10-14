@@ -9,8 +9,10 @@ Nylas.config({
 })
 
 const nylas = Nylas.with(process.env.ACCESS_TOKEN)
-new Draft(nylas, {
+const draft = new Draft(nylas, {
   subject: 'Creating a draft',
   body: 'This is where a draft is created',
   to: [{ name: 'You', email: 'you@nylas.com' }]
 })
+
+draft.save()

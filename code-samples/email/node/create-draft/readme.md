@@ -25,3 +25,6 @@ cd code-samples/email/node
 yarn
 node index.js
 ```
+
+## Usage
+![Usage](https://i.imgur.com/x5Lz1dx.png)
