@@ -89,9 +89,21 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 - [node-read-account](/code-samples/account/node/read-account/): Read account details using Nylas Node SDK!
 - [node-create-calendar](/code-samples/calendar/node/create-calendar/): Create calendar using Nylas Node SDK!
 
+**Python SDK**
+- [python-read-account](/code-samples/account/python/read-account/): Read account details using Nylas Python SDK!
+
 ## Contact API samples
 
+**Python SDK** 
+- [python-read-contacts](https://github.com/nylas-hacktoberfest-2022/code-samples/contact/python/read_contacts/)
+
+**Other languages**
 - [contact-list-json-data](https://github.com/nylas-samples/contact-list-json-data): Use JSON data with the Contact List Component!
+- [node-read-contacts](/code-samples/contact/node/read-contacts/): Read contacts using Nylas Node SDK and TypeScript
+- [create-contacts-from-emails](/code-samples/contact/node/create-contacts-from-emails/): Create contacts from latest emails using Nylas Node SDK and TypeScript
+
+**Python SDK**
+- [python-create-contact](code-samples/contact/python/create_contact/): Create a contact using the Nylas Python SDK!
 
 ## Calendar and Events API samples
 
@@ -101,6 +113,7 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 
 **Python SDK**
 - [python-holiday-generator](https://github.com/nylas-samples/python-holidays-generator): Generate a Markdown file of your Holidays Calendar using the Nylas Python SDK
+- [python-create-calendar](/code-samples/calendar/python/create-calendar/): Create a calendar using Python SDK!
 
 **Other languages**
 - [Read Calendars with C#](https://github.com/nylas-samples/read_calendars_c_sharp): Read calendars using C#
