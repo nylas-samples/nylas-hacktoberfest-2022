@@ -1,0 +1,16 @@
+{
+  "name": "create-calendar",
+  "version": "1.0.0",
+  "description": "NodeJS Nylas SDK for creating calendar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "ddouble-d",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "nylas": "^6.6.0"
+  }
+}
