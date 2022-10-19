@@ -1,0 +1,28 @@
+import java.io.IOException;
+import com.nylas.Calendar;
+import com.nylas.NylasAccount;
+import com.nylas.NylasClient;
+import com.nylas.RequestFailedException;
+
+public class CreateCalendar {
+ 
+ public static void main(String[] args) throws IOException, RequestFailedException {
+
+     // Create client object and connect it to Nylas
+     NylasClient client = new NylasClient();
+
+     // Provide the access token for a specific account
+     NylasAccount account = client.account("Access_Token");
+    
+     Calendar cal = new Calendar();
+
+     cal.setName("Calendar");
+     cal.setDescription("This is a calendar");
+     cal.setLocation("Indore/India");     
+     
+     //Create the calendar object
+     account.calendars().create(cal);
+
+   } 
+}
+
