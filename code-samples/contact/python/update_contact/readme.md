@@ -96,7 +96,7 @@ Sample output of execution :
 
 ## Note : Expected Errors
 
-If you try to update a contact that was not created using a Nylas lib, please expect below error traceback.
+If you try to update a contact that was auto-created, you will receive the below error.
 ```
 nylas.client.errors.NylasApiError: 400 Bad Request. Reason: <contact_id> is an auto-generated contact and this operation isnt supported for auto-generated contacts.. Nylas Error Type: api_error
 ```
