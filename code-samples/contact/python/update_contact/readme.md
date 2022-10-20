@@ -42,7 +42,7 @@ Please add the contact id from an existing contact in the `.env` file in the bel
 ```
 CONTACT_ID = <contact id>
 ```
-Read the contact details and fetch a contact ID from here `/code-samples/contact/python/read_contacts/read_contacts.py`  
+Read the contact details and fetch a contact ID using the [read contacts code sample](https://github.com/nylas-samples/nylas-hacktoberfest-2022/tree/main/code-samples/contact/python/read_contacts)
 
 ## Output
 
