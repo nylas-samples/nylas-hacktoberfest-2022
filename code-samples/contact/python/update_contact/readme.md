@@ -38,7 +38,7 @@ CLIENT_ID, CLIENT_SECRET and ACCESS_TOKEN
 ```
 ## Pre-requisite 
 
-Please add the customer id from a contact that was created using Nylas lib in the `.env` file in the below format.
+Please add the contact id from an existing contact in the `.env` file in the below format.
 ```
 CONTACT_ID = <contact id>
 ```
