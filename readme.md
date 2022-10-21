@@ -103,7 +103,9 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 - [node-read-contacts](/code-samples/contact/node/read-contacts/): Read contacts using Nylas Node SDK and TypeScript
 - [create-contacts-from-emails](/code-samples/contact/node/create-contacts-from-emails/): Create contacts from latest emails using Nylas Node SDK and TypeScript
 
+
 **Python SDK**
+- [python-update-contact](code-samples/contact/python/update_contact/): Update an existing account with Python Nylas SDK!
 - [python-create-contact](code-samples/contact/python/create_contact/): Create a contact using the Nylas Python SDK!
 
 ## Calendar and Events API samples
