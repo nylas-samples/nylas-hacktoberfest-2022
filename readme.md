@@ -107,6 +107,7 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 **Python SDK**
 - [python-update-contact](code-samples/contact/python/update_contact/): Update an existing account with Python Nylas SDK!
 - [python-create-contact](code-samples/contact/python/create_contact/): Create a contact using the Nylas Python SDK!
+- [python-delete-account](/code-samples/account/python/delete_contact/): Delete account details using Nylas Python SDK!
 
 ## Calendar and Events API samples
 
