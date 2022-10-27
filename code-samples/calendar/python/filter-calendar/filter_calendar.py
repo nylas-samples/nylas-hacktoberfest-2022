@@ -14,7 +14,7 @@ nylas = APIClient(
 
 calendar_id = os.environ.get("CALENDAR_ID")
 
-character_to_search = 'maha'
+character_to_search = 'coffee'
 
 # Filter events based on the criteria : Last 10 entries of events that contain the word coffee! 
 events = nylas.events.where(calendar_id=calendar_id,title=character_to_search,limit=10)
