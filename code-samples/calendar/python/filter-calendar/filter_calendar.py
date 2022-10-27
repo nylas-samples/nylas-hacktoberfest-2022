@@ -22,14 +22,14 @@ nylas = APIClient(
 
 calendar_id = os.environ.get("CALENDAR_ID")
 
-character_to_search = 'coffees'
+character_to_search = 'coffee'
 
 # Filter events based on the criteria : Last 10 entries of events that contain the word coffee! 
 events = nylas.events.where(calendar_id=calendar_id,title=character_to_search,limit=10)
 
 # Sometimes for few calendars, wither [date] exists or [start_time]. This keyword is to accommodate both the scenarios. 
 # This also handles the case where in case of [start_time], the epoch is being converted to a readable datetime format. 
-def get_proper_date(event_when):
+def get_proper_date():
     if "date" in event.when: 
         # print("Key [date] Exists")
         return event.when["date"]
@@ -44,6 +44,6 @@ for event in events:
     print("ID: {} | Title: {} | Date: {} | Participants: {}\n".format(
         event.id,
         event.title, 
-        get_proper_date(event.when),
+        get_proper_date(),
         event.participants
         ))
