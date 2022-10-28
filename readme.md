@@ -63,6 +63,7 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 - [python-email-send](https://github.com/nylas-samples/python-email-send): Send an email with the Nylas Python SDK!
 - [python-email-read](https://github.com/nylas-samples/python-email-read): Read your email with the Nylas Python SDK!
 - [python-email-delete](https://github.com/nylas-samples/python-email-delete): Delete an email with the Nylas Python SDK!
+ 
 
 **Ruby SDK**
 
@@ -119,6 +120,7 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 - [python-holiday-generator](https://github.com/nylas-samples/python-holidays-generator): Generate a Markdown file of your Holidays Calendar using the Nylas Python SDK
 - [python-create-calendar](/code-samples/calendar/python/create-calendar/): Create a calendar using Python SDK!
 - [python-filter-calendar](/code-samples/calendar/python/filter-calendar/): Filter Calendar Event using Nylas Python SDK!
+- [python-recurring-calendar](/code-samples/calendar/python/reoccuring_event/): Re-occuring Calendar Event using Nylas Python SDK!
 
 **Other languages**
 - [Read Calendars with C#](https://github.com/nylas-samples/read_calendars_c_sharp): Read calendars using C#
