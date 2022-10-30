@@ -63,6 +63,7 @@ Check out our [FAQs](https://github.com/nylas-samples/nylas-hacktoberfest-2022/b
 - [python-email-send](https://github.com/nylas-samples/python-email-send): Send an email with the Nylas Python SDK!
 - [python-email-read](https://github.com/nylas-samples/python-email-read): Read your email with the Nylas Python SDK!
 - [python-email-delete](https://github.com/nylas-samples/python-email-delete): Delete an email with the Nylas Python SDK!
+- [python-email-filter](/code-samples/email/python/filter-email/): Filter Emails with the Python Nylas SDK!
  
 
 **Ruby SDK**
